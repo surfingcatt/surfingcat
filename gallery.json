@@ -8,7 +8,6 @@
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js, tag=哔哩哔哩银瓜子转硬币, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png, enabled=false",
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js, tag=网易云音乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netease.png, enabled=false",
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/qmkg.js, tag=全民K歌, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/qmkg.png, enabled=false",
-        "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/baidu.png, enabled=false",
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png, enabled=false",
         "10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js, tag=万达电影, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/wanda.png, enabled=false",
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js, tag=美团外卖, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/wmmeituan.png, enabled=false",
