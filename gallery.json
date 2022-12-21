@@ -8,13 +8,5 @@
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js, tag=哔哩哔哩银瓜子转硬币, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png, enabled=false",
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js, tag=网易云音乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netease.png, enabled=false",
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js, tag=美团外卖, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/wmmeituan.png, enabled=false",
-        "1 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, tag=饿了么, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=false",
-        "45 3 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/weibo/weibotalk.js, tag=微博超话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=false",
-        "2 10 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.js, tag=网易游戏会员签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/163GameVip.png, enabled=false",
-        "0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/icbc/icbc_sign.js, tag=工银e生活, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/icbc.png, enabled=false",
-        "0 0 * * * https://raw.githubusercontent.com/barrym-chen/Script/master/jdczf/jdczf.js, tag=京东成长分, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jdczf.png, enabled=false", 
-        "5 8 * * * https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag= 京东特权值, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=false",
-        "0 9 * * * https://gitee.com/passerby-b/javascript/raw/master/unipay.js, tag=云闪付, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/unipay.png, enabled=false",
-        "10 0 8 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/tuhu/tuhu.js, tag=途虎养车, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tuhu.png, enabled=false"
     ]
 }
