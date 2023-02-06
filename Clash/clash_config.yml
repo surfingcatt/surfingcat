@@ -16,6 +16,7 @@ proxy-providers:
     # 可以使用任意类型的链接替换上面文字，多个链接使用英文符号的竖杠|隔开一起写上即可；也可以将Clash订阅链接替换掉整个引号""内的链接
     interval: 3600
     filter: 线|倍
+    path: ./proxy/all.yaml
     health-check:
       enable: true
       interval: 600
@@ -151,7 +152,6 @@ rules:
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Adblock,🆎 AdBlock
   - RULE-SET,Apple,🍎 苹果服务
-  - RULE-SET,BiliBili,🎬 哔哩哔哩
   - RULE-SET,Global_Classical,🌏 国外网站
   - RULE-SET,China,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT
