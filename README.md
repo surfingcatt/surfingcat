@@ -1,2 +1,1 @@
-# QuantumultX-Setting
-自用配置
+猫猫自用配置
