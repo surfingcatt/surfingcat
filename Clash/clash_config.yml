@@ -88,6 +88,7 @@ proxy-groups:
     type: select
     proxies:
       - REJECT
+      - DIRECT
       - 🚀 手动切换
 
   - name: 🗑️ 黑白名单  
