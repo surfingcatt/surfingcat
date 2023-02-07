@@ -97,7 +97,6 @@ proxy-groups:
       - 🚀 手动切换
       - ✈️ 自动选择 
 
-rule-providers:
 #20.14版本clash已忽略path属性，自动生成固定位置
 rule-providers:
   reject:
