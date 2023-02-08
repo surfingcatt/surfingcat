@@ -1,2 +1,3 @@
 payload:
   - '+.sexkbj.com'
+  - '+.openai.com'
