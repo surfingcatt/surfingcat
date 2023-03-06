@@ -136,7 +136,7 @@ rule-providers:
   my_proxy:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/surfingcatt/surfingcat/main/Clash/my_proxy.yaml
+    url: https://raw.githubusercontent.com/surfingcatt/surfingcat/main/Clash/rules/my_proxy.yaml
     path: ./ruleset/my_proxy.yaml
     interval: 86400
 
