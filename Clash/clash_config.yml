@@ -28,14 +28,38 @@ ipv6: true
 external-controller: 127.0.0.1:9090
 
 proxy-providers:
-  All:
+  ETON:
     type: http
     url: https://api.v1.mk/sub?target=clash&url=你的订阅链接&emoji=true&list=true&udp=true
     # 可以使用任意类型的链接替换上面文字，多个链接使用英文符号的竖杠|隔开一起写上即可；也可以将Clash订阅链接替换掉整个引号""内的链接
     interval: 3600
     filter: 线|x|专
     # 根据订阅内中的节点梳理关键字，排除无效节点，如“剩余流量：***”
-    path: ./proxy/all.yaml
+    path: ./proxy/ETON.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  蜂巢:
+    type: http
+    url: https://api.v1.mk/sub?target=clash&url=你的订阅链接&emoji=true&list=true&udp=true
+    # 可以使用任意类型的链接替换上面文字，多个链接使用英文符号的竖杠|隔开一起写上即可；也可以将Clash订阅链接替换掉整个引号""内的链接
+    interval: 3600
+    filter: 线|x|专
+    # 根据订阅内中的节点梳理关键字，排除无效节点，如“剩余流量：***”
+    path: ./proxy/蜂巢.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  一元:
+    type: http
+    url: https://api.v1.mk/sub?target=clash&url=你的订阅链接&emoji=true&list=true&udp=true
+    # 可以使用任意类型的链接替换上面文字，多个链接使用英文符号的竖杠|隔开一起写上即可；也可以将Clash订阅链接替换掉整个引号""内的链接
+    interval: 3600
+    filter: 线|x|专
+    # 根据订阅内中的节点梳理关键字，排除无效节点，如“剩余流量：***”
+    path: ./proxy/一元.yaml
     health-check:
       enable: true
       interval: 600
@@ -77,14 +101,18 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     use:
-      - All
+      - ETON
+      - 蜂巢
+      - 一元
     proxies:
       - ✈️ 自动选择
 
   - name: ✈️ 自动选择
     type: url-test
     use: 
-       - All
+      - ETON
+      - 蜂巢
+      - 一元  
     url: "http://www.gstatic.com/generate_204"
     interval: 300
   
