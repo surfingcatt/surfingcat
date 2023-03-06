@@ -63,14 +63,14 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     use:
-      # - All
+       - All
     proxies:
       - ✈️ 自动选择
 
   - name: ✈️ 自动选择
     type: url-test
     use: 
-      # - All  
+       - All  
     url: "http://www.gstatic.com/generate_204"
     interval: 300
   
