@@ -1,1 +1,1 @@
-# clas配置用法 <a href="https://github.com/surfingcatt/surfingcat/tree/main/Clash"><img align="right" src="https://github.com/surfingcatt/surfingcat/tree/main/Clash"/></a>
+# clas配置用法 <a href="https://github.com/surfingcatt/surfingcat/tree/main/Clash">
