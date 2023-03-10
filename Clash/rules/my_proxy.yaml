@@ -7,3 +7,4 @@ payload:
 #  - DOMAIN-SUFFIX,civtai.com
   - DOMAIN-SUFFIX,uscloud.men
   - DOMAIN-SUFFIX,python.org
+  - DOMAIN-SUFFIX,huggingface.co
