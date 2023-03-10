@@ -68,7 +68,7 @@ proxy-groups:
       - ✈️ 自动选择
 
   - name: 🎮 Game
-    type: url-test
+    type: select
     use: 
       null  
     url: "http://www.gstatic.com/generate_204"
